@@ -1,4 +1,3 @@
-// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
@@ -14,7 +13,6 @@ function App() {
     <CartProvider>
       <Router>
         <Navbar />
-        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -22,8 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
-
-        <Footer />        {/* Footer on every page */}
+        <Footer />
       </Router>
     </CartProvider>
   );
