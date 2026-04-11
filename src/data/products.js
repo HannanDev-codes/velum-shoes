@@ -41,7 +41,7 @@ export const products = [
   },
   {
     id: 6,
-    name: "The Clean Sneaker",
+    name: "The Sneaker",
     category: "casual",
     price: 6500,
     image: "https://picsum.photos/id/1005/600/600",

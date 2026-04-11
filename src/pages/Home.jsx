@@ -5,15 +5,15 @@ const Home = () => {
   return (
     <>
       <Hero />
-
+      
       <div className="max-w-7xl mx-auto px-6 py-20 text-center">
-        <h2 className="text-4xl font-bold mb-6">Discover Our Collection</h2>
-        <p className="text-gray-600 mb-10 max-w-md mx-auto">
-          Premium leather shoes with half sizes, handcrafted in Sialkot
+        <h2 className="text-5xl font-bold text-velvet mb-6">Discover Our Collection</h2>
+        <p className="text-gray-600 text-lg max-w-md mx-auto mb-10">
+          Premium handcrafted leather shoes from Sialkot with perfect half sizes
         </p>
         <Link 
           to="/shop"
-          className="inline-block bg-[#1a1a2e] text-white px-10 py-4 rounded-2xl font-semibold hover:bg-[#d4af37] hover:text-[#1a1a2e] transition"
+          className="inline-block bg-velvet text-white px-12 py-5 rounded-2xl font-semibold hover:bg-gold hover:text-velvet transition text-lg"
         >
           Browse All Shoes
         </Link>

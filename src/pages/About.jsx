@@ -2,23 +2,20 @@ const About = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-20">
       <h1 className="text-5xl font-bold text-center mb-12">Our Story</h1>
-      
-      <div className="prose max-w-none text-lg leading-relaxed text-gray-700">
+      <div className="prose text-lg text-gray-700 max-w-none">
         <p className="mb-6">
-          Velum was born from a simple frustration: finding quality leather shoes that actually fit perfectly.
+          Velum was founded with one simple goal — to create premium leather shoes that actually fit perfectly.
         </p>
         <p className="mb-6">
-          We partner with master craftsmen in Sialkot, Pakistan — the world-renowned hub for premium leather footwear — 
-          to create shoes using full-grain leather that age beautifully and last for years.
+          We work directly with master craftsmen in Sialkot, the leather capital of Pakistan, using full-grain leather that ages beautifully and lasts for years.
         </p>
         <p>
-          What makes us different is our commitment to **half sizes**. Because we believe fit matters more than anything.
+          What sets us apart is our commitment to **half sizes**. Because the right fit makes all the difference.
         </p>
       </div>
 
-      <div className="mt-16 bg-[#1a1a2e] text-white p-10 rounded-3xl text-center">
-        <h3 className="text-2xl font-semibold mb-4">Made with Pride in Sialkot, Pakistan</h3>
-        <p className="text-gray-300">Premium Leather • Ethical Craftsmanship • Perfect Fit</p>
+      <div className="mt-16 bg-[#0a0a1f] text-white p-12 rounded-3xl text-center">
+        <p className="text-xl">Handcrafted with pride in Sialkot, Pakistan</p>
       </div>
     </div>
   );

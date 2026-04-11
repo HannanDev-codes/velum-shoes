@@ -42,7 +42,7 @@ const CartSidebar = () => {
     message += `✅ Cash on Delivery\n`;
     message += `Thank you for ordering from Velum! 👟`;
 
-    const whatsappNumber = "923001234567"; // ← CHANGE TO YOUR REAL WHATSAPP NUMBER
+    const whatsappNumber = "923251247372"; // ← CHANGE TO YOUR REAL WHATSAPP NUMBER
     const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(url, '_blank');

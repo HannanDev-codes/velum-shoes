@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
+    "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        velvet: '#1a1a2e',
-        gold: '#d4af37',
+        velvet: "#0a0a1f",
+        gold: "#d4af37",
       },
     },
   },
